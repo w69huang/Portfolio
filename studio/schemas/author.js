@@ -1,3 +1,8 @@
+import skillset from './skillset';
+import backend from './backend';
+import framework from './framework';
+import other from './other';
+
 export default {
   name: 'author',
   title: 'Author',
@@ -37,6 +42,13 @@ export default {
           lists: [],
         },
       ],
+    },
+    {
+      name: 'skills',
+      title: 'Skill Sets',
+      type: 'array',
+      of: [{type: 'skillset'}],
+
     },
   ],
   preview: {
