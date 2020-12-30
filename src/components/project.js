@@ -28,7 +28,7 @@ export default function Project() {
                             <a href={project.link} 
                                 alt={project.title} 
                                 target="_blank" 
-                                rel="nooperner noreffer">
+                                rel="nooperner noreferrer">
                                 {project.title}
                             </a>
                         </h3>
