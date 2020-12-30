@@ -7,7 +7,7 @@ export default function NavBar() {
         <header className="bg-blue-500">
             <div className="container mx-auto flex justify-between">
                 <nav className="flex">
-                    <NavLink to= "/" 
+                    <NavLink to= "/portfolio" 
                         exact 
                         activeClassName="text-white"
                         className="inflex-flex items-center py-6 px-3 mr-4 text-white hover:text-white text-4xl font-bold wacky tracking-widest">
